@@ -1,0 +1,16 @@
+.rule1{
+    width: 100%;
+    height: 100%;
+    background-color: #48befe;
+}
+
+.rule1 span{
+    display: table-cell;
+    text-align:center;
+    vertical-align: middle;
+}
+
+.rule1 .rule{
+    width: 100%;
+    vertical-align: middle;
+}

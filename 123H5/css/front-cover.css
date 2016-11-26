@@ -1,0 +1,174 @@
+@media all and (orientation : portrait) {
+    html {
+        width: 100%;
+        height: 100%;
+    }
+
+    body {
+        max-width: 800px;
+        display: block;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .landscape{
+        width: 0%;
+        height: 0%;
+        display: none;
+    }
+
+    .front-cover {
+        display: table;
+        background-color: #48befe;
+        max-width: 640px;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .front-cover span {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .front-cover .index {
+        width: 100%;
+        vertical-align: middle;
+    }
+
+    .button1 {
+        width: 15%;
+        position: absolute;
+        left: 36%;
+        top: 40.5%;
+    }
+
+    .button2 {
+        width: 12.5%;
+        position: absolute;
+        left: 24%;
+        top: 41%;
+    }
+
+    .button3 {
+        width: 12.5%;
+        position: absolute;
+        left: 11%;
+        top: 41%;
+    }
+
+    .button1:active, .button2:active, .button3:active {
+        opacity: 0.8;
+    }
+
+    .bee {
+        width: 12%;
+        position: absolute;
+        top: 68%;
+        left: 41%;
+    }
+
+    .rule {
+        display: table;
+        max-width: 640px;
+        width: 100%;
+        height: 100%;
+        background-color: #48befe;
+        margin: 0 auto;
+    }
+
+    .rule span {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .rule span img {
+        width: 90%;
+        vertical-align: middle;
+    }
+
+    .rule .close {
+        width: 7%;
+        position: absolute;
+        left: 83%;
+        top: 80%;
+    }
+
+    @media screen and (min-width: 768px) {
+        .button1 {
+            width: 12%;
+            position: absolute;
+            left: 39%;
+            top: 40%;
+            z-index: 0;
+        }
+
+        .button2 {
+            width: 10%;
+            position: absolute;
+            left: 28%;
+            top: 41%;
+            z-index: 0;
+        }
+
+        .button3 {
+            width: 10%;
+            position: absolute;
+            left: 16%;
+            top: 41%;
+            z-index: 0;
+        }
+
+        .bee {
+            width: 10%;
+            position: absolute;
+            top: 70%;
+            left: 41%;
+        }
+    }
+}
+
+@media all and (orientation : landscape) {
+    html{
+        width: 100%;
+        height: 100%;
+        margin: 0 0;
+        padding: 0 0;
+        background-color: #48befe;
+        overflow: hidden;
+    }
+
+    .front-cover , .swiper-container{
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+
+    .landscape{
+        display: table;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .landscape span{
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .landscape span img{
+        width: 80%;
+        vertical-align: middle;
+    }
+}
